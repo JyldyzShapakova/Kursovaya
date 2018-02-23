@@ -7,7 +7,7 @@ body{
 
 .page{
 	height: 100vh;
-	max-width: 1400px;
+	max-width: 2400px;
 	min-width: 320px;
 }
 
@@ -37,6 +37,15 @@ body{
 	padding-bottom: 30px;
 	color: #4d4d4e;
 	text-decoration: none;
+	outline: hidden;
+}
+.side-header nav a:hover, .top-header nav a:hover {
+    -webkit-transform: scale(1.2,1.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 550ms;
+    -moz-transform: scale(1.2,1.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
 }
 .top-header nav {
 	width: 70%;
@@ -58,7 +67,7 @@ body{
 	text-align: center;
 }
 .header nav .current a{
-	color: #f46c78;
+	color: #f83748;
 }
 .header nav {
 	padding-top: 30px;
@@ -67,7 +76,7 @@ body{
 	display: none;
 }
 .header nav a:hover{
-	color: #f46c78;
+	color: #f83748;
 }
 
 .page{
@@ -92,6 +101,7 @@ body{
    display: inline-block;
 	position: relative;
 
+
 }
 .gallery .work a{
 	width: 100%;
@@ -106,12 +116,12 @@ body{
 	width: 100%;
 	height: 100%;
 	display: block;
+
 }
 
 .gallery .work:hover a{
     opacity: 0.1;
 }
-
 
 .gallery .work:hover .circle{
    display: block;
@@ -125,7 +135,7 @@ body{
 	padding: 40px 0px;
 	margin-top: 0px;
 	margin-left: 160px; 
-	background: #f46c78;
+	background: #f83748;
 	border-radius: 50%;
 	display: none;
 	position: absolute;
@@ -135,14 +145,29 @@ body{
 	margin-left: -50px;
 	z-index: 99;
 	color: #fff;
+	animation-name: circlepop;
+ 
+    animation-direction: normal;
+      animation-duration: 0.5s;
+      animation-delay: 0.2s;
+}
+@keyframes circlepop{
+    0%{
+		-webkit-transform: scale(1);
+		        transform: scale(1);
+	}
+	
+	100%{
+		-webkit-transform: scale(1.5);
+		        transform: scale(1.5);
+	}
+
 }
 
 .intro-block{
 	display: block;
 	width: 100%;
-	height: 85px;
-	
-	
+	height: 85%;
 	position: relative;
 
 
@@ -156,7 +181,7 @@ body{
 .bg{
 	width: 100%;
 	height: 100%;
-	background: url(../img/bg.jpg);
+	background: url(../img/bg.jpg) no-repeat;
 	opacity: 0.3;
 
 }
@@ -172,8 +197,9 @@ body{
 }
 
 .intro-block .text h1{
-	color: #f46c78;
+	color: #f83748;
 	font-size: 40px;
+	font-weight: bold;
 
 }
 .intro-block .text h2{
@@ -192,21 +218,20 @@ body{
 }
 .intro-block .text .btn a{
 
-	color: #f46c78;
-	border: 1px solid #f46c78;
+	color: #f83748;
+	border: 1px solid #f83748;
 	border-radius: 4px;
 	text-decoration: none;
 	padding: 10px 20px;
 }
 .intro-block .text .btn a:hover{
-	background: #f46c78;
+	background: #f83748;
 	color: #181818;
 }
 .contact-block {
 	display: block;
 	width: 100%;
 	height: 85%;
-	
 	position: relative;
 	
 	
@@ -219,8 +244,9 @@ body{
 }
 
 .contact-block .text h1{
-	color: #f46c78;
+	color: #f83748;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .contact-block .text p{
@@ -234,14 +260,25 @@ body{
 
 }
 .contact-block .text span{
-	color: #f46c78;
+	color: #f83748;
 	font-size: 18px;
 
 }
 .contact-block .text a{
-	color: #f46c78;
+	color: #f83748;
 	font-size: 20px;
 	text-decoration: none;
+	line-height: 30px;
 	padding-right: 20px;
+	margin-left: 20px;
 
 }
+.contact-block .text a:hover{
+    -webkit-transform: scale(2.2,2.2);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(2.2,2.2);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;
+}
+

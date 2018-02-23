@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-	$('#btn-menu').click(function(){		
-			$('.menu').slideToggle(700);	
+	$('#gallery').click(function(){		
+			$('.circle').slideToggle(700);	
 			if ($(this).hasClass('not-active')) {
 				$(this).addClass('is-active').removeClass('not-active');
 			}else{

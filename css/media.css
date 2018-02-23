@@ -1,0 +1,71 @@
+@media screen and (min-width: 610px){
+	
+
+	.side-header{
+		display: inline-block;
+	}
+	.top-header {
+	
+	display: none;
+	
+}
+	
+.gallery{
+	display: inline-block;
+	width: 95%;
+	height: 100%;
+	float: right;
+
+}
+.gallery .work {
+	width: 33%;
+	height: 49%;
+}
+.intro-block{
+	display: inline-block;
+	width: 95%;
+	height: 100%;
+	float: right;
+	padding-left: 200px;
+
+}
+.contact-block {
+	display: inline-block;
+	width: 95%;
+	height: 100%;
+	float: right;
+	
+}
+
+@media screen and (min-width: 1000px){
+	
+.side-header{
+		display: inline-block;
+	}
+	.top-header {
+	
+	display: none;
+	
+}
+.gallery{
+	display: inline-block;
+	width: 95%;
+	height: 100%;
+	float: right;
+
+}
+.intro-block{
+	display: inline-block;
+	width: 95%;
+	height: 100%;
+	float: right;
+	padding-left: 200px;
+
+}
+.contact-block {
+	display: inline-block;
+	width: 95%;
+	height: 100%;
+	float: right;
+	
+}

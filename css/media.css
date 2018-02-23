@@ -29,8 +29,8 @@
 
 }
 .gallery .work {
-	width: 33%;
-	height: 49%;
+	width: 49%;
+	height: 33%;
 }
 .intro-block{
 	display: inline-block;
@@ -47,6 +47,57 @@
 
 	
 }
+.intro-block .text h1{
+	color: #f83748;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+.intro-block .text h2{
+	color: #ccc;
+	font-size: 12px;
+
+}
+.intro-block .text p{
+	color: #fff;
+	font-size: 15px;
+
+}
+.intro-block .text .btn {
+	margin-top: 30px;
+	
+}
+.contact-block .text h1{
+	color: #f83748;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-block .text p{
+	color: #fff;
+	font-size: 20px;
+
+}
+.contact-block .text h2{
+	color: #ccc;
+	font-size: 15px;
+
+}
+.contact-block .text span{
+	color: #f83748;
+	font-size: 20px;
+
+}
+.contact-block .text a{
+	color: #f83748;
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 30px;
+	padding-right: 20px;
+	margin-left: 20px;
+
+}
+
 
 @media screen and (min-width: 1000px){
 	
@@ -78,4 +129,54 @@
 	height: 100%;
 	float: right;
 	
+}
+.intro-block .text h1{
+	color: #f83748;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+.intro-block .text h2{
+	color: #ccc;
+	font-size: 12px;
+
+}
+.intro-block .text p{
+	color: #fff;
+	font-size: 15px;
+
+}
+.intro-block .text .btn {
+	margin-top: 30px;
+	
+}
+.contact-block .text h1{
+	color: #f83748;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.contact-block .text p{
+	color: #fff;
+	font-size: 20px;
+
+}
+.contact-block .text h2{
+	color: #ccc;
+	font-size: 15px;
+
+}
+.contact-block .text span{
+	color: #f83748;
+	font-size: 20px;
+
+}
+.contact-block .text a{
+	color: #f83748;
+	font-size: 20px;
+	text-decoration: none;
+	line-height: 30px;
+	padding-right: 20px;
+	margin-left: 20px;
+
 }

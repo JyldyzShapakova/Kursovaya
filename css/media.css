@@ -8,16 +8,8 @@
 	display: inline-block;
 	}
 
-.top-header nav a{
-	width: 24%;
-	
-}
 
-.top-header .current{
-	
-	width: 24%;
-	
-}
+
 .header nav {
 	padding-top: 30px;
 }	
@@ -114,6 +106,10 @@
 	height: 100%;
 	float: right;
 
+}
+.gallery .work {
+	width: 33%;
+	height: 49%;
 }
 .intro-block{
 	display: inline-block;

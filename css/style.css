@@ -7,7 +7,7 @@ body{
 
 .page{
 	height: 100vh;
-	max-width: 2400px;
+	max-width: 1400px;
 	min-width: 320px;
 }
 
@@ -48,14 +48,15 @@ body{
     -moz-transition-duration: 550ms;
 }
 .top-header nav {
-	width: 70%;
-	margin-left: 100px;
+	margin-left: 15%
+	width: 80%;
+	margin-left: 10px;
 }
 
 .top-header nav a{
-	width: 32%;
+	width: 30%;
 	display: inline-block;
-	font-size: 130px;
+	font-size: 30px;
 	text-align: center;
 	color: #4d4d4e;
 	text-decoration: none;
@@ -63,7 +64,7 @@ body{
 
 .top-header .current{
 	display: inline-block;
-	width: 33%;
+	width: 30%;
 	text-align: center;
 }
 .header nav .current a{
@@ -173,8 +174,8 @@ body{
 
 }
 .intro-block .text{
-	padding-left: 8%;
-	margin-left: 100px;
+	
+	margin-left: 15%;
 	width: 70%;
 	margin-top: 100px;
 }
@@ -198,22 +199,22 @@ body{
 
 .intro-block .text h1{
 	color: #f83748;
-	font-size: 100px;
+	font-size: 30px;
 	font-weight: bold;
 
 }
 .intro-block .text h2{
 	color: #ccc;
-	font-size: 25px;
+	font-size: 12px;
 
 }
 .intro-block .text p{
 	color: #fff;
-	font-size: 30px;
+	font-size: 12px;
 
 }
 .intro-block .text .btn {
-	margin-top: 50px;
+	margin-top: 20px;
 	
 }
 .intro-block .text .btn a{
@@ -237,8 +238,8 @@ body{
 	
 }
 .contact-block .text{
-	padding-left: 8%;
-	margin-left: 100px;
+	
+	margin-left: 15%;
 	width: 70%;
 	margin-top: 100px;
 }
